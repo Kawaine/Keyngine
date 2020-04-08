@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace Kawaine.Keyngine
 {
-    [RequireComponent(typeof(Collider))]
-    public class KeyTrigger : MonoBehaviour
+    [RequireComponent(typeof(Key))]
+    public class LeftWindows : MonoBehaviour
     {
         // Start is called before the first frame update
         void Start()
